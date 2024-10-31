@@ -1,0 +1,328 @@
+/* Heading
+----------------------------------------------------------- */
+
+.ocb-settings-heading img {
+    height: 40px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.ocb-settings-heading span {
+    vertical-align: middle;
+}
+
+/* Nav
+----------------------------------------------------------- */
+
+.ocb-settings-nav {
+    float: left;
+    margin: 15px 2% 0 0;
+    width: 19%;
+}
+.ocb-settings-nav ul {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+}
+.ocb-settings-nav ul li {
+    display: block;
+    margin: 0;
+}
+.ocb-settings-nav ul li.ocb-settings-nav-heading {
+    background: #f5f5f5;
+    border-bottom: 1px solid #d5d5d5;
+    display: block;
+    padding: 5px 10px;
+}
+.ocb-settings-nav ul li a {
+    border-bottom: 1px solid #eee;
+    display: block;
+    padding: 10px;
+}
+.ocb-settings-nav ul li a:hover,
+.ocb-settings-nav ul li a.ocb-active {
+    background: #f5f5f5;
+}
+.ocb-settings-nav ul li:last-child a {
+    border-bottom: none;
+}
+.ocb-settings-nav a {
+    text-decoration: none;
+}
+.ocb-settings-nav .ocb-settings-save {
+    padding: 0 2px;
+}
+.ocb-settings-nav .button-primary {
+    width: 100%;
+}
+
+/* Content
+----------------------------------------------------------- */
+
+.ocb-settings-content {
+    float: left;
+    margin-top: 15px;
+    width: 78%;
+}
+.ocb-settings-form-content h4 {
+    font-size: 14px;
+    margin: 30px 0 5px;
+}
+.ocb-settings-ajax {
+    display: none;
+}
+.ocb-settings-hide-show{
+    font-size: 1.3em;
+    color: #0073aa;
+    margin: 25px 0 0;
+    display: none;
+    cursor: pointer;
+}
+
+/* Settings Forms
+----------------------------------------------------------- */
+
+.ocb-settings-form {
+    display: none;
+}
+.ocb-settings-form-header {
+    margin-bottom: 20px !important;
+}
+.ocb-settings-form .form-table {
+    margin: 12px 0;
+}
+.ocb-settings-form th {
+    font-weight: bold;
+    vertical-align: middle;
+}
+.ocb-settings-form th,
+.ocb-settings-form td {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 12px;
+}
+.ocb-settings-form-content {
+    display: none;
+}
+.ocb-settings-network-admin .ocb-settings-form-content,
+.ocb-settings-single-install .ocb-settings-form-content {
+    display: block;
+}
+
+/* Multi-Select
+----------------------------------------------------------- */
+
+body .ms-options-wrap > button,
+body .ms-options-wrap > button:focus {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+body .ms-options-wrap > button:after {
+    border: 5px solid rgba(0, 0, 0, 0);
+    border-top-color: #ccc;
+}
+body .ms-options-wrap > .ms-options {
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-top: -2px;
+    padding: 5px;
+}
+body .ms-options-wrap > .ms-options .ms-selectall {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    text-transform: none;
+}
+body .ms-options-wrap > .ms-options li {
+    margin-bottom: 0;
+}
+body .ms-options-wrap > .ms-options > ul label {
+    border: none !important;
+    padding: 8px !important;
+}
+body .ms-options-wrap > .ms-options > ul label.focused,
+body .ms-options-wrap > .ms-options > ul li.selected label {
+    background: none;
+}
+body .ms-options-wrap > .ms-options > ul input[type="checkbox"] {
+    margin: -4px 8px 0 0;
+    position: static;
+}
+
+/* TipTip 
+------------------------------------------------------*/
+
+#tiptip_arrow_inner {
+    border-bottom-color: #333 !important;
+}
+#tiptip_content {
+    background: #333 !important;
+    box-shadow: none !important;
+}
+
+/* Welcome Page
+----------------------------------------------------------- */
+
+#ocb-welcome-form {
+    max-width: none;
+}
+.ocb-welcome-page-content {
+    max-width: 880px;
+}
+.ocb-upgrade-page-content ul,
+.ocb-welcome-page-content ul {
+    list-style-type: disc;
+    margin: 15px 0 20px 35px;
+}
+.ocb-welcome-page-content hr {
+    clear: both;
+    margin: 20px 0 5px;
+}
+.ocb-welcome-page-content .ocb-welcome-col-wrap {
+    clear:both;
+}
+.ocb-welcome-page-content .ocb-welcome-col {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 49.7%;
+    vertical-align: text-top;
+}
+.ocb-welcome-page-content .ocb-welcome-col:first-child {
+    padding-right: 30px;
+}
+.ocb-welcome-page-content .ocb-welcome-col:last-child {
+    padding-left: 30px;
+}
+.ocb-welcome-page-content .ocb-welcome-big-link {
+    font-weight: 600;
+    font-size: 14px;
+}
+.ocb-welcome-page-content .ocb-welcome-img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+/* Templates
+----------------------------------------------------------- */
+
+.ocb-templates-override-nodes {
+    display: none;
+}
+
+/* Logo
+----------------------------------------------------------- */
+
+#ocb-remove-logo-screen{
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    vertical-align:middle;
+    text-align:center;
+    color: #ffffff;
+    background: rgba(0,0,0,0.7);
+    left: 0;
+    top: 0;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+#ocb-logo-preview{
+    position: relative;
+}
+#ocb-logo-preview:hover #ocb-remove-logo-screen{
+    opacity: 1;
+}
+
+/* User Access
+----------------------------------------------------------- */
+
+#ocb-user-access-form {
+    max-width: none;
+}
+.ocb-user-access-group {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.ocb-user-access-group h3 {
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0;
+    padding: 15px;
+}
+.ocb-user-access-setting {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    padding: 15px;
+    width: 50%;
+}
+.ocb-user-access-setting h4 {
+    margin-top: 0;
+}
+.ocb-user-access-setting h4 i {
+    color: #555;
+    cursor: help;
+    font-size: 18px;
+    position: relative;
+}
+.ocb-ua-override-ms-label {
+    display: inline-block;
+    margin: 7px 0 14px;
+}
+
+/* Media Query - Max Width 900px
+----------------------------------------------------------- */
+
+@media (max-width: 900px) {
+
+    /* Nav
+    ----------------------------------------------------------- */
+
+    .ocb-settings-nav {
+        float: none;
+        margin: 15px 0 0 0;
+        width: 100%;
+    }
+
+    /* Content
+    ----------------------------------------------------------- */
+
+    .ocb-settings-content {
+        float: none;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .ocb-settings-content .ocb-settings-save {
+        float: none;
+        width: 100%;
+    }
+    .ocb-settings-content .ocb-settings-save .button-primary {
+        width: 100%;
+    }
+
+    /* User Access
+    ----------------------------------------------------------- */
+
+    .ocb-user-access-setting {
+        float: none;
+        width: 100%;
+    }
+}
+
+/* Media Query - Max Width 782px
+----------------------------------------------------------- */
+
+@media (max-width: 782px) {
+
+    /* Settings Forms
+    ----------------------------------------------------------- */
+
+    .ocb-settings-form th,
+    .ocb-settings-form td {
+        padding: 5px 17px;
+    }
+}

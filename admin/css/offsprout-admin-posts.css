@@ -1,0 +1,152 @@
+/* General
+------------------------------------------------------ */
+
+.offsprout-builder-admin {
+    position: relative;
+}
+
+/* Enabled/Disabled States
+------------------------------------------------------ */
+
+.offsprout-builder-enabled .offsprout-builder-admin-tabs {
+    border: none;
+    margin: 10px 0 0;
+}
+.offsprout-builder-admin-ui {
+    display: none;
+}
+.offsprout-builder-enabled .offsprout-builder-admin-ui {
+    display: block;
+}
+.offsprout-builder-enabled #postdivrich {
+    display: none;
+}
+
+/* Tabs
+------------------------------------------------------ */
+
+.offsprout-builder-admin-tabs {
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+}
+.offsprout-builder-admin-tabs a {
+    border-color: #dfdfdf #dfdfdf #f0f0f0;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    color: #aaa;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    display: inline-block;
+    padding: 8px 14px;
+    text-decoration: none;
+    margin: 0 4px -1px 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -moz-border-top-left-radius: 3px;
+    -moz-border-top-right-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+}
+.offsprout-builder-admin-tabs a:focus{
+    box-shadow: none;
+}
+.offsprout-builder-admin-tabs a:hover,
+.offsprout-builder-admin-tabs a.offsprout-active {
+    border-color: #ccc #ccc #f0f0f0;
+}
+.offsprout-builder-admin-tabs a:hover {
+    color: #333;
+}
+.offsprout-builder-admin-tabs a.offsprout-active {
+    border-width: 1px;
+    color: #464646;
+}
+
+/* Gutenberg Buttons
+------------------------------------------------------ */
+body.offsprout-builder-disabled .button.offsprout-enable-editor, body.offsprout-builder-enabled .button.offsprout-enable-builder{
+    display: none !important;
+}
+body.offsprout-builder-enabled .button.offsprout-enable-editor, body.offsprout-builder-disabled .button.offsprout-enable-builder{
+    display: inline-block !important;
+}
+body.offsprout-builder-enabled .editor-block-list__layout, body.offsprout-builder-disabled #offsprout-editor {
+    display: none;
+}
+body.offsprout-builder-enabled .block-editor-block-list__layout {
+    display: none;
+}
+body.offsprout-builder-enabled #offsprout-editor {
+    margin-bottom: 50px;
+    display: table;
+}
+#offsprout-editor {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    height: 300px;
+    width: 100%;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+#offsprout-go-to-edit-page-link {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+}
+#offsprout-editor-button {
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* UI
+------------------------------------------------------ */
+
+.offsprout-builder-admin-ui {
+    border: 1px solid #ccc;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -moz-border-top-right-radius: 3px;
+    -moz-border-bottom-right-radius: 3px;
+    -moz-border-bottom-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    margin-bottom: 20px;
+    padding: 45px 0 50px;
+    text-align: center;
+}
+.offsprout-builder-admin-ui h3 {
+    font-family: Helvetica, sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    margin: 0 0 30px 0 !important;
+    padding: 0 !important;
+}
+
+/* Templates
+------------------------------------------------------ */
+
+.post-type-fl-builder-template .offsprout-builder-admin-tabs {
+    display: none;
+}
+.post-type-fl-builder-template .offsprout-builder-admin-ui {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    display: block;
+    margin-top: 30px;
+}
+#fl-builder-template-category-tabs {
+    display: none;
+}
+#fl-builder-template-category-all {
+    margin: 13px 0 0;
+}
+#newfl-builder-template-category_parent {
+    display: none;
+}
